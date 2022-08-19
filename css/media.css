@@ -1,0 +1,389 @@
+/* Extra extra large */
+@media screen and (max-width: 1400px) {
+
+}
+/* Extra large */
+@media screen and (max-width: 1200px) {
+    .header__wrapper {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .hero__wrapper {
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-content: center;
+    }
+    .hero__title {
+        margin-left: 20px;
+        max-width: 570px;   
+    }
+    .hero__subtitle {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .switch-button {
+        margin-left: 50px;
+    }
+    .hero-slider {
+        width: 500px;
+    }
+    .hero__background {
+        left: 54%;
+    }
+    .hero__second-foto {
+        left: 87%;
+    }
+    .products__catalog {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .products__title {
+        margin-bottom: 60px;
+        margin-left: 30px;
+    }
+    .catalog__item {
+        padding: 30px;
+    }
+    .benefits {
+        padding-left: 15px;
+    }
+    .dream-team {
+        padding-left: 15px;
+    }
+    .description {
+        padding-left: 7px;
+    }
+    .footer {
+        padding: 0 15px;
+    }
+    .content {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .contacts {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .all-contacts {
+        margin-right: 20px;
+    }
+
+}
+/* Large */
+@media screen and (max-width: 992px) {
+    .nav__list {
+        display: none;
+    }
+    .nav-wrapper-mobile {
+        display: block;
+    }
+    .hero__wrapper {
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+    .hero__title {
+        margin-right: 20px;
+        margin-top: 80px; 
+        width: 100%;
+        text-align: center;
+    }
+    .hero__subtitle {
+        max-width: 500px;
+        text-align: center;
+    }
+    .switch-button {
+        max-width: 400px;
+    }
+    .hero-slider {
+        width: 750px;
+        height: 900px;
+        margin: 0 auto;
+    }
+    .gallery__main {
+        width: 100%;
+        height: 100%;
+        margin-top: 70px;
+
+        position: static;
+    }
+
+    .gallery__main .main-foto {
+        margin: 0 auto;
+    }
+
+    .hero__background {
+        display: none;
+    }
+
+    .hero__second-foto {
+        display: none;
+    }
+    .hero__third-foto {
+        display: none;
+    }  
+    .benefits {
+        padding-right: 15px;
+    }
+    .products__title { 
+        text-align: center;
+        margin-left: 0;
+        font-size: 35px;
+        margin-bottom: 40px;
+        font-weight: 400;    
+    } 
+    .products__catalog {
+        justify-content: center;
+    }
+    .catalog__item {
+        padding: 17px;
+    }
+    .benefits__title {
+        text-align: center;
+    }
+    .benefits__list {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .benefits__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .benefits__description {
+        margin-bottom: 60px;
+        max-width: 600px;
+        max-height: 100%;
+        text-align: center;
+    }
+    .dream-team {
+        padding-right: 15px;
+    }
+    .dream-team__flex-container {
+        flex-direction: column;
+    }
+    .dream-team__title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .team-slider {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .team-slider .slide-dream-team_first,
+    .team-slider .slide-dream-team_second,
+    .team-slider .slide-dream-team_third {
+        width: 100%;
+        height: 100%;
+    }
+ 
+    .description__title {
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .description__tekst {
+        max-width: 600px;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    .description__link-about-brand {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .footer__top-content {
+        align-items: flex-start;
+    }
+    .copyright {
+        margin-right: 175px;
+    }
+    .content__nav {
+        margin-bottom: 100px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .content__title {
+        text-align: center;
+    }
+    .about-brand {
+        flex-direction: column;
+    }
+    .about-brand:last-child {
+        flex-direction: column-reverse;
+    }
+    .about-brand__foto {
+        margin: 20px auto;
+    }
+    .about-brand__tekst {
+        text-align: center;
+    }
+    .about-brand__tekst:last-child {
+        margin-left: auto;
+    }
+    .about-brand__tekst:first-child {
+        margin-right: auto;
+    }
+    .about-brand__title {
+        margin-bottom: 40px;
+        margin-top: 40px;
+
+    }
+    .menu {
+        display: none;
+    }
+    .all-contacts {
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 70px;
+    }
+    .all-contacts__item {
+        margin: 20px;
+        text-align: center;
+    }
+    .all-contacts__number {
+        margin-bottom: 50px;
+    }
+    .all-contacts__mail {
+        margin-bottom: 50px;
+    }
+    .all-contacts__adress {
+        margin-bottom: 50px;
+        
+    }
+    .form {
+        align-items: center;
+    }
+    .form__textarea {
+        width: 350px;
+    }
+    .form__button {
+        margin-bottom: 150px;
+    }
+    
+    .team-slider .swiper-button-next {
+        display: none;
+    }
+    .team-slider .swiper-button-prev {
+        display: none;
+    }
+
+}
+/* Medium */
+@media screen and (max-width: 768px) {
+    .hero__title {
+        margin: 80px auto 40px;
+    }
+    .hero-slider {
+        width: 100%;
+    }
+    .gallery__main {      
+        left: 21%;
+    }
+        
+    .footer__nav-list {
+        flex-direction: column;    
+    } 
+       
+    .footer__top-content {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .footer__main-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer__nav-list {
+        align-items: center;
+    }
+    .footer-contacts__email {
+        padding-top: 20px;
+    }
+    .footer-contacts__social {
+        justify-content: center;
+    }
+    .footer-contacts__visa {
+        justify-content: center;
+
+    }
+    .copyright {
+        margin-right: 0;
+        padding-top: 30px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    .footer__logo {
+        padding: 10px;
+    }
+    .footer__nav {
+        padding: 10px;
+    }
+    .nav__item {
+        padding: 10px;
+        margin-right: 0;
+    }
+    .contacts__title {
+        text-align: center;
+    }
+    .contacts__nav {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .form {
+        margin-top: 70px;
+    }
+    
+
+}
+/* Small */
+@media screen and (max-width: 576px) {
+    .number {
+        display: none;
+    }
+    .hero__title {
+        max-width: 580px;
+        width: 100%;
+        margin: 80px auto 30px;
+    }
+    .hero__subtitle {
+        max-width: 350px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+    .switch-button {
+        max-width: 350px;
+        margin: 0 auto;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .gallery__main {      
+        left: 0;
+    }
+    
+    .hero__background {
+        display: none;
+    }
+    .content {
+        margin: 20px auto;
+    }
+    .about-brand__description {
+        margin: 15px;
+    }
+    .about-brand__foto {
+        max-width: 365px;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    
+   
+}

@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+p, h1, h2, h3, h4 {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+img {
+    display: block;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+        
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+}
+.wrapper {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+}
+.content {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header__wrapper {
+    margin-bottom: 196px;
+}
+.content__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 61px;
+    letter-spacing: 0.02em;
+    margin-bottom: 26px;
+}
+.content__nav {
+    margin-bottom: 210px;
+}
+.nav__main {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-right: 13px;
+    text-decoration: none;
+    color: #000000;
+}
+.nav__main:hover {
+    transition: all 0.5s ease-out;
+    border-bottom: #6E9C9F 1px solid;
+    cursor: pointer;   
+}
+.nav__about-brand {
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #919191;
+}
+.about-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.about-brand__tekst:last-child {
+    margin-left: 123px;
+}
+.about-brand__tekst:first-child {
+    margin-right: 123px;
+}
+.about-brand__title {
+    margin-bottom: 46px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+}
+.about-brand__description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.content__shop-button {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.shop-button {
+    margin: 0 auto;
+    text-align: center;
+    padding: 22px 50px;
+    background-color: #6E9C9F;
+    border: 0; 
+
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 24px;
+    
+    letter-spacing: 0.02em;
+    color: #FFFFFF; 
+    transition: all 0.5s ease-out;
+}
+.shop-button:hover {
+    background-color: #509498;
+    cursor: pointer;    
+}

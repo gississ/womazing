@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Womazing</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;702&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__wrapper">
+                <a class="logo" href="./index.html">
+                    <img class="logo__image" src="./images/logo.svg" alt="Womazing">
+                </a>   
+                
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                        <a href="./index.html" class="nav__link-main">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Магазин</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./about-brand.html" class="nav__link">О бренде</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./contacts.html" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="phone-basket">
+                    <a href="#" class="phone"></a>
+                    <a href="tel:+74958235412" class="number">+7 (495) 823-54-12</a>
+                    <a href=# class="basket"><img  src="images/basket.svg" alt="Корзина"></a>
+                </div>
+
+                <div class="nav-wrapper-mobile">
+                    <div class="burger-menu">
+                        <div class="burger-menu__item"></div>
+                        <div class="burger-menu__item"></div>
+                        <div class="burger-menu__item"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="hero__wrapper">
+                <section class="hero">
+                    <h1 class="hero__title">Новые поступления в этом сезоне
+                    </h1>
+                    <p class="hero__subtitle">Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время исследовать.
+                    </p>
+                    <div class="switch-button">
+                        <a class="switch" href="#products"><img class="switch-foto" src="./images/switch.svg" alt="switch">              
+                        </a>
+                        <a class="button" href="#">Открыть магазин                
+                        </a>
+                    </div>
+                </section>
+
+                <div class="swiper hero-slider">
+                    <div class="swiper-wrapper hero-slider">
+  
+                        <div class="swiper-slide hero-slides">
+                            <div class="gallery__main">
+                                <img class="main-foto" src="./images/main-foto.jpg" alt="gallery">
+                            </div>                                                                
+                        </div>
+                        <div class="swiper-slide hero-slides">
+                            <div class="gallery__main">
+                                <img class="main-foto" src="./images/main-foto-slide2.jpg" alt="gallery">
+                            </div>                                                      
+                        </div>
+                        <div class="swiper-slide hero-slides">
+                            <div class="gallery__main">
+                                <img class="main-foto" src="./images/main-foto-slide3.jpg" alt="gallery">
+                            </div>                                                     
+                        </div>
+                    
+                    </div>
+                
+                <div class="swiper-pagination"></div>          
+                </div>
+                
+                <div class="hero__background"></div>
+
+                <div class="hero__second-foto">
+                    <img src="./images/second-foto.jpg" alt="gallery">
+                </div>
+                
+                <div class="hero__third-foto">
+                    <img src="./images/third-foto.jpg" alt="gallery">
+                </div>
+                
+            </div>    
+           
+            <div class="products__wrapper">  
+                <section class="products"> 
+                    <h2 class="products__title">Новая коллекция</h2>  
+                    <div class="products__catalog">
+                        <div class="catalog__item">
+                            <a href="#" class="catalog__link">
+                                <div class="catalog__photo">
+                                    <img class="catalog__photo" src="./images/product-photo-1.jpg" alt="product">
+                                    <img class="catalog__photo_overlay" src="./images/overlay.jpg" alt="product">
+                                </div>
+                            </a>
+                            <h4 class="catalog__title">Футболка USA</h4>
+                            <span class="catalog__price">$129</span>
+                        </div>
+                        <div class="catalog__item">
+                            <a href="#" class="catalog__link">
+                                <div class="catalog__photo">
+                                    <img class="catalog__photo-product" src="./images/product-photo-2.jpg" alt="product">
+                                    <img class="catalog__photo_overlay" src="./images/overlay.jpg" alt="product">
+                                </div>
+                            </a>
+                            <h4 class="catalog__title">Купальник Glow</h4>
+                            <span class="catalog__price">$129</span>
+                        </div>
+                        <div class="catalog__item">
+                            <a href="#" class="catalog__link">
+                                <div class="catalog__photo">
+                                    <img class="catalog__photo" src="./images/product-photo-3.jpg" alt="product">
+                                    <img class="catalog__photo_overlay" src="./images/overlay.jpg" alt="product">
+                                </div>
+                            </a>
+                            <h4 class="catalog__title">Свитшот Sweet Shot</h4>
+                            <span class="catalog__price">$129</span>
+                        </div>
+                    </div>
+                    <div class="products__shop">
+                    <a class="products__shop-button" href="#">Открыть магазин</a>     
+                    </div>
+                </section>
+            </div> 
+            <div class="benefits__wrapper">    
+                <section class="benefits">
+                    <h2 class="benefits__title">Что для нас важно</h2>
+                    <div class="benefits__list">
+                        <div class="benefits__item">
+                            <img class="benefits__icon" src="./images/icon-quality.svg" alt="icon">
+                            <h3 class="benefits__name">Качество</h3>
+                            <p class="benefits__description">Наши профессионалы работают на лучшем оборудовании для пошива одежды беспрецедентного качества</p>
+                        </div>
+                        <div class="benefits__item">
+                            <img class="benefits__icon" src="./images/icon-speed.svg" alt="icon">
+                            <h3 class="benefits__name">Скорость</h3>
+                            <p class="benefits__description">Благодаря отлаженной системе в Womazing мы можем отшивать до 20-ти единиц продукции в наших собственных цехах</p>
+                        </div>
+                        <div class="benefits__item">
+                            <img class="benefits__icon" src="./images/icon-responsibility.svg" alt="icon">
+                            <h3 class="benefits__name">Ответственность</h3>
+                            <p class="benefits__description">Мы заботимся о людях и планете. Безотходное производство и комфортные условия труда - все это Womazing</p>
+                        </div>
+                    </div>                
+                </section>
+            </div>
+
+            <section class="dream-team">
+                              
+                <h2 class="dream-team__title">Команда мечты Womazing
+                </h2>
+
+                <div class="dream-team__flex-container"> 
+
+                    <div class="swiper team-slider">
+                        <div class="swiper-wrapper">
+      
+                            <div class="swiper-slide">
+                                <div class="slide-dream-team"></div>                                       
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-dream-team_second"></div>                                                     
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-dream-team_third"></div>                                                      
+                            </div>
+                        
+                        </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination">
+                    </div>
+                    
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    
+                    </div>
+
+                    <div class="description">
+                        <h3 class="description__title">Для каждой                        
+                        </h3>
+                        <p class="description__tekst">Каждая девушка уникальна. Однако, мы схожи в миллионе мелочей. <br>
+                            <br> Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.
+                        </p>
+                        <a href="./about-brand.html" class="description__link-about-brand">Подробнее о бренде</a>
+                    </div> 
+                     
+                </div>     
+            
+            </section> 
+        </main>
+        <footer class="footer">
+            <div class="footer__top-content">
+                <a class="footer__logo" href="./index.html">
+                    <img class="logo__image" src="./images/logo.svg" alt="Womazing">
+                </a>   
+                
+
+                <nav class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="nav__item">
+                        <a href="./index.html" class="nav__link-main">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Магазин</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./about-brand.html" class="nav__link">О бренде</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./contacts.html" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="tel:+74958235412" class="footer__number">+7 (495) 823-54-12</a>
+                
+            </div>
+            <div class="footer__main-content">
+                <div class="footer__main">
+                    <div class="copyright">
+                        <p class="rights">&copy; Все права защищены
+                        </p>
+                        <a href="#" class="privacy-policy">Политика конфиденциальности
+                        </a>
+                        <a href="#" class="public-offer">Публичная оферта
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Пальто
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Свитшоты                               
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Кардиганы                               
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Толстовки                               
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-contacts">
+                    <div class="footer-contacts__email">
+                        <a href="mailto:hello@womazing.com" class="email">hello@womazing.com</a>
+                    </div>
+                    <div class="footer-contacts__social">
+                        <a href="#" class="footer-contacts__social-link">
+                            <img class="instagram-logo" src="./images/instagram-logo.svg" alt="instagram">
+                        </a>
+                        <a href="#" class="footer-contacts__social-link">  
+                            <img class="facebook-logo" src="./images/facebook-logo.svg" alt="facebook">
+                        </a>  
+                        <a href="#" class="footer-contacts__social-link">
+                            <img class="twitter-logo" src="./images/twitter-logo.svg" alt="twitter">
+                        </a>
+                    </div>
+                    <div class="footer-contacts__visa">
+                        <img class="visa-logo" src="./images/visa-mastercard.svg" alt="visa">
+                    </div>
+                </div>
+                
+            </div>   
+            
+
+        </footer>
+    </div>
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiperHero = new Swiper('.hero-slider', {
+            direction: 'horizontal',        
+            loop: true,
+
+            autoplay: {
+                delay: 3000,
+            },
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+});
+
+        const swiper = new Swiper('.team-slider', {
+            direction: 'horizontal',        
+            loop: true,
+
+            autoplay: {
+                delay: 3000,
+            },
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            //   Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',   
+                prevEl: '.swiper-button-prev',
+            },
+});
+        
+    </script>    
+</body>
+</html>
